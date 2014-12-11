@@ -1,0 +1,9 @@
+# ozhttpd
+
+GET のみに対応した httpd(もどき) の習作。
+
+ホスト名・ポート番号・ドキュメントルートディレクトリを指定しつつプログラムを実行してください。
+
+~~~ { .sh }
+./httpd -h HOST_NAME -p PORT_NUM -d DOCUMENT_ROOT
+~~~
